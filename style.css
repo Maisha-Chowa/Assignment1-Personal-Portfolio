@@ -1,0 +1,92 @@
+h1 {
+  font-weight: bold;
+  font-size: xxx-large;
+}
+p {
+  font-weight: 500;
+  font-size: large;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 2%;
+  padding: 5%;
+}
+span {
+  color: rgb(52, 130, 194);
+}
+section {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.half-text-section{
+    width: 100%;
+}
+
+.self-image {
+  width: 50%;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+.banner {
+  background-image: url(./images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+}
+
+.second-section {
+  text-align: center;
+}
+.second-section h1,
+h2 {
+  color: rgb(52, 130, 194);
+}
+.my-mission {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.my-goals {
+  width: 33.33%;
+  margin: 5% 1%;
+  padding: 1% 1%;
+  text-align: left;
+  box-shadow: 10px 10px 40px rgb(83, 196, 231);
+  border-radius: 5%;
+}
+.my-goals img {
+  width: 100%;
+  border-radius: 5%;
+}
+.contact-section {
+  display: flex;
+  box-shadow: 10px 10px 40px rgb(83, 196, 231);
+  border-radius: 5px;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+}
+#Contact {
+  text-align: center;
+  color: rgb(52, 130, 194);
+}
+.follower {
+  width: 33.33%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(aqua, blue);
+  font-weight: 400;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+footer {
+  color: cornsilk;
+  background-image: linear-gradient(aqua, blue);
+  text-align: center;
+  padding: 5%;
+}
